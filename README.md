@@ -2,9 +2,10 @@
 Numerical study of bound states and critical behavior of the Yukawa potential, using the Numerov and Runge-Kutta 4 methods. 
 The algorithm developed varies the coupling constant λ, the screening parameter α, and the angular momentum quantum number l to calculate the bound states. Critical values of α for each λ were analyzed, revealing their dependence on l.
 
-There are 4 codes in this repository:<br />
+There are 5 codes in this repository:<br />
   NumerovYukawaL0.m - Numerov's Method to find the number of states and energies for l=0<br />
   NumerovYukawaL1.m - Numerov's Method to find the number of states and energies for l>0<br />
+  RK4Yukawa.m - RK4 Method to find the number of states and energies<br />
   YukawaACs.m - Algorithm to find the critical values of alpha for lambda = 1-5 and l=0<br />
   YukawaACsLM1.m - Algorithm to find the critical values of alpha for lambda = 1 and l>0<br />
 

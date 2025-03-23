@@ -9,7 +9,7 @@ There are 5 codes in this repository:<br />
   YukawaACs.m - Algorithm to find the critical values of alpha for lambda = 1-5 and l=0<br />
   YukawaACsLM1.m - Algorithm to find the critical values of alpha for lambda = 1 and l>0<br />
 
-Only the file NumerovYukawaL0.m has detailed comments, but all codes work similarly.
+**Only the file NumerovYukawaL0.m has detailed comments, but all codes work similarly.**
   
 I had to do different codes for the l=0 and l>0 cases and to find the critical values of alpha for the following reasons:
   1. In the first two codes, I find the energies' number of states and values. I had to separate them into 2 different codes because I did a shooting method. I found that when the energy I used to integrate the wave function is higher or lower than the real value of the energy, the value of the wave function at r=0 behaves in a particular way, so I started with energy of -30 and added to it until the behavior changed, and after this I lowered the magnitude of the change in energy, for example, if I began adding 1, at the moment it changes behavior, I now add 0.1, and then 0.01, and so on. The behavior for l=0 and l>1 are different, and because the code was already too messy, I decided to separate them into two different codes.
